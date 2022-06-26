@@ -188,6 +188,11 @@ ps：此文档为离线文档，相关说明和问题集可能会过时，如果
 #### 扩展说明
 在团子的基础上增加debian/ubuntu操作系统的支持
 
+#### 环境准备流程
+pip3 install -r ./server/paddleocr/paddleocr.egg-info/requires.txt
 
+#### debian/ubuntu下的运行流程
+服务默认端口是6666
+./run.sh 
 
 

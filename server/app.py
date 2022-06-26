@@ -138,5 +138,5 @@ def getPost():
 
 if __name__ == "__main__" :
 
-    port = openConfig("../../config/config.yaml")
-    app.run(debug=False, host="0.0.0.0", port=port, threaded=False)
+    # port = openConfig("../../config/config.yaml")
+    app.run(debug=False, host="0.0.0.0", port=6666, threaded=False)
